@@ -9,7 +9,7 @@ dotenv.config();
 const app = express();
 app.use(
   cors({
-    origin: "https://fitness-tracker-client-five.vercel.app/",
+    origin: "https://fitness-tracker-client-five.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     allowedHeaders: "*",
     credentials: true,
