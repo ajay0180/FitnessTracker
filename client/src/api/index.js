@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "http://localhost:8080/api";
+const baseURL = "https://fitness-tracker-api-two.vercel.app/api";
 
 export const userSignUp = async (data) => {
   try {
