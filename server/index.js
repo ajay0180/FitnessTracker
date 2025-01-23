@@ -9,10 +9,10 @@ dotenv.config();
 const app = express();
 app.use(
   cors({
-    origin: "https://fitness-tracker-client-five.vercel.app/", // Allow all origins
-    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"], // Allow these methods
-    allowedHeaders: "*", // Allow all headers
-    credentials: true, // If you want to support credentials (cookies, HTTP authentication, etc.)
+    origin: "https://fitness-tracker-client-five.vercel.app/",
+    methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+    allowedHeaders: "*",
+    credentials: true,
   })
 );
 
